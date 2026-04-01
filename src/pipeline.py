@@ -28,9 +28,8 @@ class TripClassifierPipeline:
     FEATURE_COLS = [
     'duration_min', 'duration_log',
     'hour', 'day_of_week', 'month',
-    'is_weekend', 'is_holiday', 'is_rush_hour',
+    'is_weekend', 'is_holiday',
     'is_member',
-    'start_anchored', 'end_anchored',
     'rideable_electric',
      ]
 
